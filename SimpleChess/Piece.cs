@@ -1,25 +1,23 @@
 ﻿using System;
-/*
+
 namespace SimpleChess
 {
     abstract class Piece
     {
-        public string Symbol { get; }
-        private readonly string _type;
+        public string Symbol { get; set; }
 
-        protected Piece(string type, string symbol)
+        protected Piece()
         {
-            _type = type;
-            Symbol = symbol;
+
         }
 
         public abstract bool Move(string fromPosition, string toPosition);
     }
 }
-*/
 
 
 
+/*
 namespace SimpleChess
 {
     class Piece
@@ -46,3 +44,4 @@ namespace SimpleChess
         }
     }
 }
+*/
